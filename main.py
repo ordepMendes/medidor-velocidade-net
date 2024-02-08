@@ -24,6 +24,9 @@ def testingNet():
     
     label_download['text'] = donwload
     label_upload['text'] = upload
+    
+    button['text'] = 'Testar novamente'
+    button.place(x=100,y=100)
 
 
 # ? Criação da janela
